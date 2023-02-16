@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: url(medical-background.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: antiquewhite;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: fit-content;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: aqua;
+}
+
+tr {
+    background-color: aquamarine;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    font-family: 'Kristen ITC';
+}
+
+tr:hover {
+    background-color: rgb(114, 238, 25);
+}
+

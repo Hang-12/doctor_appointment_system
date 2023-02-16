@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactuspage.css">
+    <title>Contact Us Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Connect!</h1>
+        <p>Do not hesitate if you have any queries! Our seniors services team will help you out. Just drop us your message and expect a 1-2 days reply from us. Cheers!</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send us a message!</h3>
+                <form>
+                
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Enter your name here" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Enter your phone number here" required>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter your email here" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Enter your subject here" required>
+                        </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" onclick="showresult()">Send</button>
+                     
+                    <script>
+                        function showresult(){
+                            alert("Thank you for your message! Please wait for our reply patiently.");
+                        }
+                    </script>
+
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach us</h3>
+
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>seniorcare@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td>+60 123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>21, Jalan Bukit Bintang, 20300, Kuala Lumpur, Malaysia.</td>
+                    </tr>
+
+                </table>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

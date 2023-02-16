@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container{
+            display: flex;
+            background-color: none;
+            align-content: center;
+            justify-content: center;
+        }
+
+        #container div{
+            background-color: rgb(196, 171, 104);
+            align-items: center;
+            margin: 10px;
+            width: 350px;
+            height: 500px;
+        }
+
+        .button{
+            display: inline-flex;
+            height:60px;
+            padding: 0px;
+            position: fixed;
+            right: 33%;
+            background: #009577;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .button:hover{
+            background: #008268;
+        }
+
+        .button:active{
+            background: #006e57;
+        }
+
+        .button__text,
+        .button__icon{
+            display: inline-flex;
+            align-items: center;
+            padding: 0 24px;
+            color: #fff;
+            height: 100%;
+        }
+
+        .button__icon{
+            font-size: 1.5em;
+            background-color: rgba(0,0,0,0.09);
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out Services Page</title>
+    <link rel="stylesheet" href="checkoutservicespage.css">
+    
+</head>
+   
+<body>
+    <h2 align="center">Services Provided by Senior Care</h2>
+
+    <div id="container">
+        <div>
+            <img src="drlee.jpg" alt="Dr Lee" height="250px" width="350px"/>
+            <p align="center">Basic Illness Treatment - Dr Lee</p>
+            <ul>
+                <li>Graduated from Harvard University.</li>
+                <li>Has been a professional doctor for 20 years.</li>
+                <li>Specialised in Basic Illness Treatment.</li>
+                <ol>
+                    <li>Fever</li>
+                    <li>Cough</li>
+                    <li>Flu</li>
+                    <li>Headache</li>
+                    <li>Stomachache</li>
+                    <li>Sorethroat</li>
+                </ol>
+                
+            </ul>
+           
+        </div>
+        <div>
+            <img src="drjames.jpg" alt="Dr James" height="250px" width="350px"/>
+            <p align="center">Basic Body Check-Up - Dr James</p>
+            <ul>
+                <li>Graduated from Oxford University.</li>
+                <li>Has been a professional doctor for 30 years.</li>
+                <li>Specialised in Basic Body Check-Up.</li>
+                <ol>
+                    <li>Blood Test</li>
+                    <li>Urine Test</li>
+                    <li>Blood/Sugar Level Checking</li>
+                    <li>Kidney Function</li>
+                    <li>Heart Function</li>
+                    <li>Cardiac System</li>
+                </ol>
+                
+            </ul>
+        </div>            
+        <div>
+            <img src="dramir.jpg" alt="Dr Amir" height="250px" width="350px"/>
+            <p align="center">ENT Treatment - Dr Amir</p>
+            <ul>
+                <li>Graduated from Asia Pacific University with a specialism in ENT.</li>
+                <li>Has been a professional doctor for 10 years.</li>
+                <li>Specialised in ENT (Ear, Nose, Throat) Treatment.</li>
+                <ol>
+                    <li>Ear Treatment</li>
+                    <li>Nose Treatment</li>
+                    <li>Throat Treatment</li>
+                    <li>Head Treatment</li>
+                    <li>Neck Treatment</li>
+                </ol>
+                
+            </ul>
+        </div>
+    </div>
+    <a href="bookappointment.php" target="_blank">
+    <button type="button" class="button">
+        <span class="button__text">Book Appointment Now!</span>
+        <span class="button__icon">
+            <ion-icon name="bag-add-outline"></ion-icon>
+        </span>
+    </button></a>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            
+</body>
+</html>
